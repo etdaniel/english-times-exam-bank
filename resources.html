@@ -5,98 +5,138 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>공식 시험자료 링크 | English Times Exam Bank</title>
+
 <style>
-*{box-sizing:border-box}
-body{
-  font:16px 'Malgun Gothic',sans-serif;
-  background:#f7f8fa;
-  color:#222;
-  margin:0;
+* {
+  box-sizing: border-box;
 }
-main{
-  max-width:950px;
-  margin:30px auto;
-  padding:25px;
-  background:white;
-  border-radius:16px;
+
+body {
+  font: 16px 'Malgun Gothic', sans-serif;
+  background: #f7f8fa;
+  color: #222;
+  margin: 0;
 }
-a{color:#a51d2d}
-h1{margin-bottom:12px}
-.description{
-  color:#666;
-  line-height:1.7;
+
+main {
+  max-width: 950px;
+  margin: 30px auto;
+  padding: 25px;
+  background: white;
+  border-radius: 16px;
 }
-.search-box{
-  background:#f8f9fb;
-  padding:20px;
-  border-radius:12px;
-  margin:24px 0;
+
+a {
+  color: #a51d2d;
 }
-.search-grid{
-  display:grid;
-  grid-template-columns:repeat(2,minmax(0,1fr));
-  gap:14px;
-  margin-top:15px;
+
+h1 {
+  margin-bottom: 12px;
 }
-label{
-  display:block;
-  font-weight:bold;
-  font-size:14px;
-  margin-bottom:6px;
+
+.description {
+  color: #666;
+  line-height: 1.7;
 }
-input,select{
-  width:100%;
-  padding:12px;
-  border:1px solid #ddd;
-  border-radius:8px;
-  background:white;
-  font-size:15px;
+
+.search-box {
+  background: #f8f9fb;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 24px 0;
 }
-button{
-  padding:11px 18px;
-  border:0;
-  border-radius:8px;
-  background:#a51d2d;
-  color:white;
-  cursor:pointer;
-  margin-top:16px;
+
+.search-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 15px;
 }
-ul{
-  list-style:none;
-  padding:0;
+
+label {
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 6px;
 }
-li{
-  margin:12px 0;
-  padding:18px;
-  border:1px solid #eee;
-  border-radius:10px;
+
+input, select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: white;
+  font-size: 15px;
 }
-li a{
-  font-weight:bold;
-  text-decoration:none;
-  line-height:1.6;
+
+button {
+  padding: 11px 18px;
+  border: 0;
+  border-radius: 8px;
+  background: #a51d2d;
+  color: white;
+  cursor: pointer;
+  margin-top: 16px;
 }
-li a:hover{text-decoration:underline}
-.meta{
-  color:#777;
-  font-size:13px;
-  margin-top:9px;
+
+button:hover {
+  background: #831624;
 }
-#state{
-  font-weight:bold;
-  color:#a51d2d;
+
+ul {
+  list-style: none;
+  padding: 0;
 }
-.empty{
-  color:#777;
-  padding:25px;
-  text-align:center;
+
+li {
+  margin: 12px 0;
+  padding: 18px;
+  border: 1px solid #eee;
+  border-radius: 10px;
 }
-@media(max-width:600px){
-  main{margin:0;padding:18px;border-radius:0}
-  .search-grid{grid-template-columns:1fr}
+
+li a {
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 1.6;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+.meta {
+  color: #777;
+  font-size: 13px;
+  margin-top: 9px;
+  line-height: 1.7;
+}
+
+#state {
+  font-weight: bold;
+  color: #a51d2d;
+}
+
+.empty {
+  color: #777;
+  padding: 25px;
+  text-align: center;
+}
+
+@media(max-width:600px) {
+  main {
+    margin: 0;
+    padding: 18px;
+    border-radius: 0;
+  }
+
+  .search-grid {
+    grid-template-columns: 1fr;
+  }
 }
 </style>
 </head>
+
 <body>
 <main>
 
@@ -113,6 +153,7 @@ li a:hover{text-decoration:underline}
 <section class="search-box">
 
 <label for="q">학교명 또는 시험자료명 검색</label>
+
 <input
   id="q"
   placeholder="예: 나래중, 중3, 2026 기말고사"
@@ -122,333 +163,546 @@ li a:hover{text-decoration:underline}
 <div class="search-grid">
 
 <div>
-<label for="school">학교급</label>
-<select id="school">
-<option value="">전체 학교급</option>
-<option value="elementary">초등학교</option>
-<option value="middle">중학교</option>
-<option value="high">고등학교</option>
-</select>
+  <label for="school">학교급</label>
+  <select id="school">
+    <option value="">전체 학교급</option>
+    <option value="elementary">초등학교</option>
+    <option value="middle">중학교</option>
+    <option value="high">고등학교</option>
+  </select>
 </div>
 
 <div>
-<label for="grade">학년</label>
-<select id="grade">
-<option value="">전체 학년</option>
-</select>
+  <label for="grade">학년</label>
+  <select id="grade">
+    <option value="">전체 학년</option>
+  </select>
 </div>
 
 <div>
-<label for="exam">시험 종류</label>
-<select id="exam">
-<option value="">전체 시험</option>
-<option value="mid">중간고사</option>
-<option value="final">기말고사</option>
-<option value="mock">모의고사</option>
-<option value="other">기타 자료</option>
-</select>
+  <label for="exam">시험 종류</label>
+  <select id="exam">
+    <option value="">전체 시험</option>
+    <option value="mid">중간고사</option>
+    <option value="final">기말고사</option>
+    <option value="mock">모의고사·수능</option>
+    <option value="other">기타 자료</option>
+  </select>
 </div>
 
 <div>
-<label for="year">시험 연도</label>
-<select id="year">
-<option value="">전체 연도</option>
-</select>
+  <label for="year">시험 연도</label>
+  <select id="year">
+    <option value="">전체 연도</option>
+  </select>
 </div>
 
 </div>
 
-<button id="reset" type="button">검색 초기화</button>
+<button id="reset" type="button">
+  검색 초기화
+</button>
 
 </section>
 
 <h2>시험자료 목록</h2>
-<p id="state" role="status">자료를 불러오는 중입니다...</p>
+
+<p id="state" role="status">
+  자료를 불러오는 중입니다...
+</p>
 
 <ul id="list"></ul>
 
 </main>
 
 <script>
-let data=[];
+let data = [];
 
-const q=document.getElementById('q');
-const school=document.getElementById('school');
-const grade=document.getElementById('grade');
-const exam=document.getElementById('exam');
-const year=document.getElementById('year');
-const list=document.getElementById('list');
-const state=document.getElementById('state');
-const reset=document.getElementById('reset');
+const q = document.getElementById('q');
+const school = document.getElementById('school');
+const grade = document.getElementById('grade');
+const exam = document.getElementById('exam');
+const year = document.getElementById('year');
+const list = document.getElementById('list');
+const state = document.getElementById('state');
+const reset = document.getElementById('reset');
 
-function text(x){
-  return String(x??'');
+function text(value) {
+  return String(value ?? '');
 }
 
-function normalized(x){
-  return text(x).toLowerCase().replace(/\s+/g,'');
+function normalized(value) {
+  return text(value)
+    .toLowerCase()
+    .replace(/\s+/g, '');
 }
 
-function getSchool(x){
-  const s=normalized(
-    [x.school_level,x.school_type,x.school,x.title]
-      .join(' ')
-  );
+// 학교급 분류
+// 관리자가 입력한 값을 우선 사용합니다.
+function getSchool(item) {
+  const explicit = normalized(item.school_level);
 
-  if(/초등|초[1-6]|elementary/.test(s))
+  if (
+    explicit === 'elementary' ||
+    explicit === 'elementaryschool'
+  ) {
     return 'elementary';
+  }
 
-  if(/중학교|중[1-3]|중등|middle/.test(s))
+  if (
+    explicit === 'middle' ||
+    explicit === 'middleschool'
+  ) {
     return 'middle';
+  }
 
-  if(/고등|고[1-3]|고교|highschool/.test(s))
+  if (
+    explicit === 'high' ||
+    explicit === 'highschool'
+  ) {
     return 'high';
+  }
+
+  // 기타·전국 공통으로 지정한 자료는
+  // 제목에서 학교급을 추측하지 않습니다.
+  if (explicit === 'other') {
+    return '';
+  }
+
+  const s = normalized([
+    item.school_name,
+    item.school_type,
+    item.school,
+    item.title
+  ].join(' '));
+
+  if (
+    /초등|초[1-6]|elementary/.test(s)
+  ) {
+    return 'elementary';
+  }
+
+  if (
+    /중학교|중[1-3]|중등|middle/.test(s)
+  ) {
+    return 'middle';
+  }
+
+  if (
+    /고등|고[1-3]|고교|highschool/.test(s)
+  ) {
+    return 'high';
+  }
 
   return '';
 }
 
-function getGrade(x){
-  const explicit=text(x.grade).match(/[1-6]/);
+// 학년 분류
+function getGrade(item) {
+  const explicit = text(item.grade).trim();
 
-  if(explicit){
-    return explicit[0];
+  if (/^[1-6]$/.test(explicit)) {
+    return explicit;
   }
 
-  const title=normalized(x.title);
+  const s = normalized([
+    item.title,
+    item.school_name
+  ].join(' '));
 
-  const match=title.match(
+  const match = s.match(
     /(?:초등학교|초등|초|중학교|중등|중|고등학교|고등|고)\s*([1-6])(?:학년)?/
   );
 
-  if(match){
-    return match[1];
-  }
-
-  return '';
+  return match ? match[1] : '';
 }
 
-function getExam(x){
-  const s=normalized(
-    [x.exam_type,x.exam,x.title].join(' ')
-  );
+// 시험 종류 분류
+// mid, midterm 모두 인식합니다.
+function getExam(item) {
+  const explicit = normalized(item.exam_type);
 
-  if(/중간고사|중간시험|중간평가|midterm/.test(s))
+  if (
+    explicit === 'mid' ||
+    explicit === 'midterm'
+  ) {
     return 'mid';
+  }
 
-  if(/기말고사|기말시험|기말평가|final/.test(s))
+  if (explicit === 'final') {
     return 'final';
+  }
 
-  if(/모의고사|학력평가|수능|mock/.test(s))
+  if (
+    explicit === 'mock' ||
+    explicit === 'mockexam'
+  ) {
     return 'mock';
+  }
+
+  if (explicit === 'other') {
+    return 'other';
+  }
+
+  const s = normalized([
+    item.exam,
+    item.title
+  ].join(' '));
+
+  if (
+    /중간고사|중간시험|중간평가|midterm/.test(s)
+  ) {
+    return 'mid';
+  }
+
+  if (
+    /기말고사|기말시험|기말평가|final/.test(s)
+  ) {
+    return 'final';
+  }
+
+  if (
+    /모의고사|모의평가|학력평가|수능|대학수학능력시험|mock/.test(s)
+  ) {
+    return 'mock';
+  }
 
   return 'other';
 }
 
-function getYear(x){
-  const explicit=text(x.year).match(/20\d{2}/);
+// 시험 연도 분류
+function getYear(item) {
+  const explicit = text(item.year).trim();
 
-  if(explicit){
-    return explicit[0];
+  if (/^(19|20)\d{2}$/.test(explicit)) {
+    return explicit;
   }
 
-  const match=text(x.title).match(/20\d{2}/);
+  const match = text(item.title).match(
+    /(?:19|20)\d{2}/
+  );
 
   return match ? match[0] : '';
 }
 
-function updateGrades(){
-  const previous=grade.value;
+// 학교 이름
+function getSchoolName(item) {
+  return text(
+    item.school_name || item.school || ''
+  ).trim();
+}
+
+// 학년 선택 목록 갱신
+function updateGrades() {
+  const previous = grade.value;
 
   grade.replaceChildren();
 
-  const all=document.createElement('option');
-  all.value='';
-  all.textContent='전체 학년';
+  const all = document.createElement('option');
+  all.value = '';
+  all.textContent = '전체 학년';
   grade.append(all);
 
-  const max=school.value==='middle'||school.value==='high'
-    ? 3 : 6;
+  const max =
+    school.value === 'middle' ||
+    school.value === 'high'
+      ? 3
+      : 6;
 
-  for(let i=1;i<=max;i++){
-    const option=document.createElement('option');
-    option.value=String(i);
-    option.textContent=i+'학년';
+  for (let i = 1; i <= max; i++) {
+    const option = document.createElement('option');
+
+    option.value = String(i);
+    option.textContent = i + '학년';
+
     grade.append(option);
   }
 
-  if(previous && Number(previous)<=max){
-    grade.value=previous;
+  if (
+    previous &&
+    Number(previous) <= max
+  ) {
+    grade.value = previous;
   }
 }
 
-function updateYears(){
-  const years=[
-    ...new Set(data.map(getYear).filter(Boolean))
-  ].sort((a,b)=>Number(b)-Number(a));
+// 연도 목록 갱신
+function updateYears() {
+  const years = [
+    ...new Set(
+      data.map(getYear).filter(Boolean)
+    )
+  ].sort(
+    (a, b) => Number(b) - Number(a)
+  );
 
   year.replaceChildren();
 
-  const all=document.createElement('option');
-  all.value='';
-  all.textContent='전체 연도';
+  const all = document.createElement('option');
+  all.value = '';
+  all.textContent = '전체 연도';
+
   year.append(all);
 
-  for(const y of years){
-    const option=document.createElement('option');
-    option.value=y;
-    option.textContent=y+'년';
+  for (const y of years) {
+    const option = document.createElement('option');
+
+    option.value = y;
+    option.textContent = y + '년';
+
     year.append(option);
   }
 }
 
-function safeUrl(value){
-  try{
-    const u=new URL(text(value));
+// 외부 링크 검증
+function safeUrl(value) {
+  try {
+    const url = new URL(text(value));
 
-    if(u.protocol==='https:'||u.protocol==='http:'){
-      return u.href;
+    if (
+      url.protocol === 'https:' ||
+      url.protocol === 'http:'
+    ) {
+      return url.href;
     }
-  }catch(e){}
+  } catch (error) {}
 
   return null;
 }
 
-function render(){
+// 자료 표시 순서
+// 시험 연도가 최신인 자료를 먼저 표시합니다.
+function sortResources(items) {
+  return [...items].sort((a, b) => {
+    const yearA = Number(getYear(a)) || 0;
+    const yearB = Number(getYear(b)) || 0;
+
+    if (yearA !== yearB) {
+      return yearB - yearA;
+    }
+
+    const dateA = Date.parse(
+      text(a.reviewed_on || a.found_on)
+    ) || 0;
+
+    const dateB = Date.parse(
+      text(b.reviewed_on || b.found_on)
+    ) || 0;
+
+    return dateB - dateA;
+  });
+}
+
+// 검색 결과 출력
+function render() {
   list.replaceChildren();
 
-  const keyword=normalized(q.value);
+  const keyword = normalized(q.value);
 
-  const rows=data.filter(x=>{
-    const searchText=normalized([
-      x.title,
-      x.school,
-      x.school_name,
-      x.source_query,
-      x.year,
-      x.grade
+  const filtered = data.filter(item => {
+    const searchText = normalized([
+      item.title,
+      item.school,
+      item.school_name,
+      item.school_level,
+      item.source_query,
+      item.year,
+      item.grade,
+      item.exam_type
     ].join(' '));
 
-    if(keyword && !searchText.includes(keyword))
+    if (
+      keyword &&
+      !searchText.includes(keyword)
+    ) {
       return false;
+    }
 
-    if(school.value && getSchool(x)!==school.value)
+    if (
+      school.value &&
+      getSchool(item) !== school.value
+    ) {
       return false;
+    }
 
-    if(grade.value && getGrade(x)!==grade.value)
+    if (
+      grade.value &&
+      getGrade(item) !== grade.value
+    ) {
       return false;
+    }
 
-    if(exam.value && getExam(x)!==exam.value)
+    if (
+      exam.value &&
+      getExam(item) !== exam.value
+    ) {
       return false;
+    }
 
-    if(year.value && getYear(x)!==year.value)
+    if (
+      year.value &&
+      getYear(item) !== year.value
+    ) {
       return false;
+    }
 
     return true;
   });
 
-  for(const x of rows){
-    const li=document.createElement('li');
-    const a=document.createElement('a');
+  const rows = sortResources(filtered);
 
-    a.textContent=text(x.title)||'제목 없는 자료';
+  const schoolNames = {
+    elementary: '초등학교',
+    middle: '중학교',
+    high: '고등학교'
+  };
 
-    const href=safeUrl(x.url);
+  const examNames = {
+    mid: '중간고사',
+    final: '기말고사',
+    mock: '모의고사·수능',
+    other: '기타 자료'
+  };
 
-    if(href){
-      a.href=href;
-      a.target='_blank';
-      a.rel='noopener noreferrer';
+  for (const item of rows) {
+    const li = document.createElement('li');
+    const a = document.createElement('a');
+
+    a.textContent =
+      text(item.title) || '제목 없는 자료';
+
+    const href = safeUrl(item.url);
+
+    if (href) {
+      a.href = href;
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
       li.append(a);
-    }else{
-      li.textContent=a.textContent;
+    } else {
+      li.textContent = a.textContent;
     }
 
-    const meta=document.createElement('div');
-    meta.className='meta';
+    const meta = document.createElement('div');
+    meta.className = 'meta';
 
-    const details=[];
+    const details = [];
 
-    const schoolNames={
-      elementary:'초등학교',
-      middle:'중학교',
-      high:'고등학교'
+    const schoolName = getSchoolName(item);
+    const schoolLevel = getSchool(item);
+    const itemGrade = getGrade(item);
+    const itemYear = getYear(item);
+    const itemExam = getExam(item);
+
+    if (schoolName) {
+      details.push(schoolName);
+    }
+
+    if (schoolLevel) {
+      details.push(schoolNames[schoolLevel]);
+    }
+
+    if (itemGrade) {
+      details.push(itemGrade + '학년');
+    }
+
+    if (itemYear) {
+      details.push(itemYear + '년');
+    }
+
+    details.push(examNames[itemExam]);
+
+    const typeNames = {
+      pdf: 'PDF 자료',
+      official: '공식 자료 페이지',
+      other: '외부 링크'
     };
 
-    if(getSchool(x))
-      details.push(schoolNames[getSchool(x)]);
+    if (
+      item.resource_type &&
+      typeNames[item.resource_type]
+    ) {
+      details.push(
+        typeNames[item.resource_type]
+      );
+    }
 
-    if(getGrade(x))
-      details.push(getGrade(x)+'학년');
-
-    if(getYear(x))
-      details.push(getYear(x)+'년');
-
-    const examNames={
-      mid:'중간고사',
-      final:'기말고사',
-      mock:'모의고사',
-      other:'기타 자료'
-    };
-
-    details.push(examNames[getExam(x)]);
-
-    meta.textContent=details.join(' · ');
+    meta.textContent = details.join(' · ');
 
     li.append(meta);
     list.append(li);
   }
 
-  state.textContent=rows.length+'개 자료 표시';
+  state.textContent =
+    rows.length + '개 자료 표시';
 
-  if(rows.length===0){
-    const empty=document.createElement('li');
-    empty.className='empty';
-    empty.textContent='검색 조건에 맞는 자료가 없습니다.';
+  if (rows.length === 0) {
+    const empty = document.createElement('li');
+
+    empty.className = 'empty';
+    empty.textContent =
+      '검색 조건에 맞는 자료가 없습니다.';
+
     list.append(empty);
   }
 }
 
-q.addEventListener('input',render);
+// 검색 이벤트
+q.addEventListener('input', render);
 
-school.addEventListener('change',()=>{
-  grade.value='';
+school.addEventListener('change', () => {
+  grade.value = '';
   updateGrades();
   render();
 });
 
-grade.addEventListener('change',render);
-exam.addEventListener('change',render);
-year.addEventListener('change',render);
+grade.addEventListener('change', render);
+exam.addEventListener('change', render);
+year.addEventListener('change', render);
 
-reset.addEventListener('click',()=>{
-  q.value='';
-  school.value='';
-  grade.value='';
-  exam.value='';
-  year.value='';
+// 초기화 버튼
+reset.addEventListener('click', () => {
+  q.value = '';
+  school.value = '';
+  grade.value = '';
+  exam.value = '';
+  year.value = '';
 
   updateGrades();
   render();
 });
 
+// 첫 화면 설정
 updateGrades();
 
-fetch('approved.json',{cache:'no-store'})
-.then(r=>{
-  if(!r.ok)throw Error('로드 실패');
-  return r.json();
+// 승인된 자료 불러오기
+fetch('approved.json', {
+  cache: 'no-store'
 })
-.then(items=>{
-  if(!Array.isArray(items)){
+.then(response => {
+  if (!response.ok) {
+    throw Error('자료 불러오기 실패');
+  }
+
+  return response.json();
+})
+.then(items => {
+  if (!Array.isArray(items)) {
     throw Error('자료 형식 오류');
   }
 
-  data=items;
+  data = items.filter(
+    item =>
+      item &&
+      item.status !== 'rejected'
+  );
+
   updateYears();
   render();
 })
-.catch(()=>{
-  state.textContent=
+.catch(error => {
+  console.error(error);
+
+  state.textContent =
     '자료 목록을 불러올 수 없습니다. 잠시 후 다시 시도해 주세요.';
 });
 
