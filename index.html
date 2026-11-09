@@ -1,420 +1,54 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
 <head>
-<meta charset="UTF-8">
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="영어타임즈 시험자료실: 학교별 내신, 모의고사, 수능 및 영어 학습자료를 검색하고 다운로드하세요.">
 <title>English Times Exam Bank | 영어타임즈 시험자료실</title>
 <style>
-:root {
-  --orange:#e97828;
-  --dark:#17243b;
-  --muted:#64748b;
-  --line:#e2e8f0;
-  --bg:#f6f8fc;
-}
-*{box-sizing:border-box}
-body{
-  margin:0;
-  background:var(--bg);
-  color:var(--dark);
-  font-family:Arial,"Malgun Gothic",sans-serif;
-}
-a{text-decoration:none;color:inherit}
-header{
-  background:white;
-  border-bottom:1px solid var(--line);
-  padding:18px 5%;
-}
-.nav{
-  max-width:1180px;
-  margin:auto;
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  flex-wrap:wrap;
-  gap:14px;
-}
-.brand{font-size:22px;font-weight:800}
-.brand span{color:var(--orange)}
-nav{display:flex;gap:18px;flex-wrap:wrap}
-nav a{font-size:14px;font-weight:600}
-.hero{
-  background:linear-gradient(125deg,#17243b,#29466a);
-  color:white;
-  padding:65px 20px;
-  text-align:center;
-}
-.hero h1{font-size:clamp(27px,5vw,42px);margin:0 0 15px}
-.hero p{color:#dce5f1;line-height:1.7}
-.container{max-width:1180px;margin:auto;padding:30px 18px 65px}
-.panel{
-  background:white;
-  border:1px solid var(--line);
-  border-radius:15px;
-  padding:25px;
-  margin-bottom:24px;
-}
-h2{margin:0 0 18px;font-size:22px}
-.filters{
-  display:grid;
-  grid-template-columns:2fr repeat(3,1fr);
-  gap:12px;
-}
-input,select{
-  width:100%;
-  padding:13px;
-  border:1px solid #cbd5e1;
-  border-radius:8px;
-  background:white;
-  font-size:15px;
-}
-button,.button{
-  background:var(--orange);
-  color:white;
-  border:0;
-  border-radius:8px;
-  padding:12px 18px;
-  cursor:pointer;
-  display:inline-block;
-  font-weight:700;
-}
-.secondary{background:#475569}
-.toolbar{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  flex-wrap:wrap;
-  gap:12px;
-  margin:18px 0;
-}
-#results{
-  display:grid;
-  grid-template-columns:repeat(3,minmax(0,1fr));
-  gap:17px;
-}
-.card{
-  background:white;
-  border:1px solid var(--line);
-  border-radius:13px;
-  padding:21px;
-  display:flex;
-  flex-direction:column;
-  gap:12px;
-}
-.card h3{
-  margin:0;
-  font-size:17px;
-  line-height:1.5;
-  overflow-wrap:anywhere;
-}
-.meta{font-size:13px;color:var(--muted);line-height:1.8}
-.tag{
-  display:inline-block;
-  background:#fff0e4;
-  color:#a94d12;
-  padding:5px 9px;
-  border-radius:6px;
-  font-size:12px;
-  font-weight:700;
-  align-self:flex-start;
-}
-.card .button{
-  margin-top:auto;
-  text-align:center;
-}
-.message{
-  grid-column:1/-1;
-  background:white;
-  padding:35px;
-  text-align:center;
-  border-radius:12px;
-  color:var(--muted);
-}
-footer{
-  padding:28px 15px;
-  text-align:center;
-  background:var(--dark);
-  color:#dce5f1;
-  font-size:13px;
-}
-@media(max-width:900px){
-  .filters{grid-template-columns:1fr 1fr}
-  #results{grid-template-columns:1fr 1fr}
-}
-@media(max-width:600px){
-  .filters{grid-template-columns:1fr}
-  #results{grid-template-columns:1fr}
-  .panel{padding:17px}
-}
+:root{--navy:#142b4a;--orange:#ed7b2f;--ink:#1d2b40;--muted:#64748b;--bg:#f6f8fc;--border:#e2e8f0}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);font-family:Arial,'Malgun Gothic','Apple SD Gothic Neo',sans-serif;color:var(--ink)}a{text-decoration:none;color:inherit}button,input,select{font:inherit}button{cursor:pointer}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #f6b37e;outline-offset:2px}
+.wrap{max-width:1160px;margin:auto;padding-left:20px;padding-right:20px}
+header{background:#fff;border-bottom:1px solid var(--border)}.nav{display:flex;justify-content:space-between;align-items:center;gap:20px;min-height:74px;flex-wrap:wrap;padding-top:12px;padding-bottom:12px}.brand{font-weight:800;font-size:20px;letter-spacing:-.5px}.brand strong{color:var(--orange)}nav{display:flex;gap:20px;flex-wrap:wrap}nav a{font-weight:650;font-size:14px}nav a:hover{color:var(--orange)}
+.hero{background:linear-gradient(125deg,#142b4a,#284d73);color:white;text-align:center;padding:55px 20px 75px}.logo{display:block;max-width:230px;max-height:110px;width:auto;height:auto;object-fit:contain;margin:0 auto 20px;background:white;border-radius:12px;padding:9px}.hero h1{font-size:clamp(30px,5vw,48px);margin:0 0 14px;letter-spacing:-1px}.hero p{color:#e4ebf5;font-size:clamp(15px,2.2vw,19px);margin:0 0 24px}.hero-search{max-width:650px;margin:auto;display:flex;background:white;border-radius:13px;padding:7px;gap:8px;box-shadow:0 10px 30px #0a19303d}.hero-search input{border:0;flex:1;min-width:0;padding:12px;color:var(--ink);outline:none}.primary{border:0;border-radius:9px;background:var(--orange);color:white;padding:12px 20px;font-weight:750}.primary:hover{background:#d9671d}
+main{padding-top:32px;padding-bottom:60px}.section-heading{margin:0 0 17px;font-size:23px}.categories{display:grid;grid-template-columns:repeat(4,1fr);gap:15px;margin-bottom:38px}.category{background:#fff;border:1px solid var(--border);border-radius:15px;padding:24px 15px;text-align:center;transition:transform .15s,border-color .15s;cursor:pointer;color:var(--ink)}.category:hover{transform:translateY(-3px);border-color:var(--orange)}.category .emoji{font-size:32px;display:block;margin-bottom:12px}.category strong{display:block;font-size:17px;margin-bottom:8px}.category small{font-size:13px;color:var(--muted);line-height:1.5}
+.panel{background:white;border:1px solid var(--border);border-radius:16px;padding:25px;margin-bottom:26px}.panel h2{margin:0 0 10px;font-size:22px}.panel p{color:var(--muted);font-size:14px;margin:0 0 20px;line-height:1.7}.filters{display:grid;grid-template-columns:2fr repeat(3,1fr);gap:12px}.filters input,.filters select{width:100%;border:1px solid #cbd5e1;border-radius:9px;padding:13px 12px;background:white;color:var(--ink);min-width:0}.filter-actions{display:flex;justify-content:flex-end;margin-top:14px}.outline{border:1px solid var(--border);border-radius:9px;background:white;color:var(--ink);padding:11px 16px;font-weight:700}.outline:hover{background:var(--bg)}
+.list-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:28px 0 16px;flex-wrap:wrap}.list-heading h2{margin:0;font-size:23px}.count{color:var(--muted);font-size:14px}.results{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.result{background:white;border:1px solid var(--border);border-radius:14px;padding:22px;display:flex;flex-direction:column;gap:12px;min-width:0}.result h3{font-size:17px;line-height:1.5;margin:0;overflow-wrap:anywhere}.tag{align-self:flex-start;color:#9b4d14;background:#fff0e4;font-weight:750;font-size:12px;border-radius:6px;padding:6px 9px}.meta{font-size:13px;color:var(--muted);line-height:1.8}.download{margin-top:auto;text-align:center;display:block}.message{grid-column:1/-1;text-align:center;background:white;border:1px solid var(--border);border-radius:12px;padding:34px;color:var(--muted)}.more-wrap{text-align:center;margin-top:24px}.more-wrap button[hidden]{display:none}
+.note{margin-top:34px;border-left:4px solid var(--orange);background:#fff;border-radius:10px;padding:18px 20px;color:var(--muted);font-size:14px;line-height:1.8}.note strong{color:var(--ink)}footer{text-align:center;background:var(--navy);color:#dce5f1;padding:30px 16px;font-size:13px;line-height:1.9}
+@media(max-width:900px){.categories{grid-template-columns:repeat(2,1fr)}.filters{grid-template-columns:repeat(2,1fr)}.results{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:580px){.nav{justify-content:center}.brand{font-size:18px}nav{justify-content:center;gap:14px}.hero{padding:38px 15px 55px}.hero-search{flex-direction:column}.hero-search button{width:100%}.categories{gap:10px}.category{padding:19px 8px}.category strong{font-size:15px}.category small{font-size:12px}.filters,.results{grid-template-columns:1fr}.panel{padding:18px}.section-heading,.list-heading h2{font-size:21px}}
 </style>
 </head>
 <body>
-
-<header>
-  <div class="nav">
-    <a class="brand" href="./index.html">
-      <span>English Times</span> Exam Bank
-    </a>
-    <nav>
-      <a href="./index.html">홈</a>
-      <a href="./resources.html">시험자료실</a>
-      <a href="https://englishtimes.co.kr/"
-         target="_blank" rel="noopener">영어타임즈어학원</a>
-      <a href="https://english-times-admin-api.kdstarmoon.workers.dev/">
-        관리자
-      </a>
-    </nav>
-  </div>
-</header>
-
-<section class="hero">
-  <h1>영어 시험자료를 한곳에서</h1>
-  <p>
-    학교별 · 학년별 · 시험별 영어 학습자료 검색<br>
-    English Times Exam Bank
-  </p>
-</section>
-
-<main class="container">
-
-  <section class="panel">
-    <h2>시험자료 검색</h2>
-    <div class="filters">
-      <input id="keyword" placeholder="학교명 또는 자료 제목 검색"
-             aria-label="학교명 또는 자료 제목 검색">
-
-      <select id="level" aria-label="학교급">
-        <option value="">전체 학교급</option>
-        <option value="elementary">초등학교</option>
-        <option value="middle">중학교</option>
-        <option value="high">고등학교</option>
-        <option value="other">기타</option>
-      </select>
-
-      <select id="grade" aria-label="학년">
-        <option value="">전체 학년</option>
-        <option value="1">1학년</option>
-        <option value="2">2학년</option>
-        <option value="3">3학년</option>
-        <option value="4">4학년</option>
-        <option value="5">5학년</option>
-        <option value="6">6학년</option>
-      </select>
-
-      <select id="exam" aria-label="시험 종류">
-        <option value="">전체 시험</option>
-        <option value="mid">중간고사</option>
-        <option value="final">기말고사</option>
-        <option value="mock">모의고사·수능</option>
-        <option value="other">기타 자료</option>
-      </select>
-    </div>
-
-    <div style="margin-top:15px">
-      <button id="reset">검색 초기화</button>
-    </div>
-  </section>
-
-  <div class="toolbar">
-    <h2 style="margin:0">공개 시험자료</h2>
-    <div id="count" aria-live="polite">자료 불러오는 중...</div>
-  </div>
-
-  <div id="results">
-    <div class="message">승인된 자료를 불러오는 중입니다.</div>
-  </div>
-
-  <div style="text-align:center;margin-top:25px">
-    <button id="more" class="secondary" hidden>자료 더 보기</button>
-  </div>
-
-</main>
-
-<footer>
-  English Times Language Academy<br>
-  LEARN TODAY GROW TOMORROW<br>
-  © English Times Exam Bank
-</footer>
-
+<header><div class="wrap nav"><a href="./index.html" class="brand"><strong>ENGLISH TIMES</strong> EXAM BANK</a><nav aria-label="주 메뉴"><a href="./index.html">홈</a><a href="#search">자료 검색</a><a href="#exam-maker">시험지 제작</a><a href="https://english-times-admin-api.kdstarmoon.workers.dev/">관리자</a></nav></div></header>
+<section class="hero"><img class="logo" src="./english-times-logo.png" alt="ENGLISH TIMES GIMPO 로고" onerror="this.style.display='none'"><h1>English Times Exam Bank</h1><p>무료 영어 내신 · 모의고사 · 수능 자료실</p><form id="hero-form" class="hero-search" role="search"><input id="hero-keyword" type="search" placeholder="학교명, 학년, 시험자료를 검색하세요" aria-label="시험자료 빠른 검색"><button class="primary" type="submit">자료 검색 🔎</button></form></section>
+<main class="wrap"><h2 class="section-heading">자료 유형별 찾아보기</h2><section class="categories" aria-label="자료 분류"><button class="category" type="button" data-exam="mock"><span class="emoji" aria-hidden="true">📖</span><strong>수능·모의고사</strong><small>연도별·학년별 자료</small></button><button class="category" type="button" data-category="school"><span class="emoji" aria-hidden="true">🏫</span><strong>학교별 내신</strong><small>중간·기말고사</small></button><button class="category" type="button" data-category="variation"><span class="emoji" aria-hidden="true">📝</span><strong>변형문제</strong><small>어법·어휘·빈칸·순서</small></button><a class="category" href="#exam-maker"><span class="emoji" aria-hidden="true">🖨️</span><strong>시험지 제작</strong><small>기능 준비 안내</small></a></section>
+<section class="panel" id="search"><h2>시험자료 검색</h2><p>관리자가 승인한 영어 학습자료를 학교급, 학년, 시험 종류별로 검색할 수 있습니다.</p><div class="filters"><input id="keyword" type="search" placeholder="학교명 또는 자료 제목" aria-label="학교명 또는 자료 제목"><select id="level" aria-label="학교급"><option value="">전체 학교급</option><option value="elementary">초등학교</option><option value="middle">중학교</option><option value="high">고등학교</option><option value="other">기타</option></select><select id="grade" aria-label="학년"><option value="">전체 학년</option><option value="1">1학년</option><option value="2">2학년</option><option value="3">3학년</option><option value="4">4학년</option><option value="5">5학년</option><option value="6">6학년</option></select><select id="exam" aria-label="시험 종류"><option value="">전체 시험</option><option value="mid">중간고사</option><option value="final">기말고사</option><option value="mock">모의고사·수능</option><option value="other">기타 자료</option></select></div><div class="filter-actions"><button type="button" class="outline" id="reset">검색 초기화</button></div></section>
+<section aria-label="공개 시험자료"><div class="list-heading"><h2>공개 시험자료</h2><span id="count" class="count" role="status">자료 불러오는 중...</span></div><div id="results" class="results"><div class="message">승인된 자료를 불러오는 중입니다.</div></div><div class="more-wrap"><button type="button" class="outline" id="more" hidden>자료 더 보기</button></div></section>
+<section class="note" id="exam-maker"><strong>🖨️ 시험지 제작</strong><div>현재 공개 자료의 검색과 다운로드를 지원합니다. 여러 문항을 선택해 새로운 PDF 시험지를 만드는 온라인 기능은 아직 연결되지 않았습니다. 자료를 내려받아 활용해 주세요.</div></section>
+<section class="note"><strong>자료 이용 안내</strong><div>게시된 자료는 학습 목적으로 제공됩니다. 저작권을 보유하거나 적법하게 이용 허락받은 자료만 등록·배포해 주세요. 외부 자료의 저작권은 해당 권리자에게 있습니다.</div></section></main>
+<footer>ENGLISH TIMES LANGUAGE ACADEMY<br>LEARN TODAY GROW TOMORROW<br>© English Times Exam Bank</footer>
 <script>
-(() => {
-  "use strict";
-
-  const $ = id => document.getElementById(id);
-  const fields = ["keyword","level","grade","exam"];
-  const PAGE_SIZE = 30;
-
-  let records = [];
-  let visible = [];
-  let shown = 0;
-  let loadError = "";
-
-  const labels = {
-    elementary:"초등학교",
-    middle:"중학교",
-    high:"고등학교",
-    other:"기타",
-    mid:"중간고사",
-    final:"기말고사",
-    mock:"모의고사·수능"
-  };
-
-  function clean(value) {
-    return String(value ?? "").trim();
-  }
-
-  function validUrl(value) {
-    try {
-      const url = new URL(value, location.href);
-      return ["https:","http:"].includes(url.protocol)
-        ? url.href : null;
-    } catch {
-      return null;
-    }
-  }
-
-  function textElement(tag, value, className) {
-    const element = document.createElement(tag);
-    element.textContent = value;
-    if (className) element.className = className;
-    return element;
-  }
-
-  function createCard(item) {
-    const card = document.createElement("article");
-    card.className = "card";
-
-    const type = clean(item.resource_type);
-    const filename = clean(item.filename).toLowerCase();
-    const format = type === "file"
-      ? (filename.endsWith(".pdf") ? "PDF"
-        : filename.endsWith(".docx") ? "Word"
-        : filename.endsWith(".doc") ? "Word" : "파일")
-      : type === "pdf" ? "PDF 링크" : "자료 링크";
-
-    card.appendChild(textElement("span", format, "tag"));
-    card.appendChild(textElement(
-      "h3", clean(item.title) || clean(item.filename) || "제목 없음"
-    ));
-
-    const details = [
-      clean(item.school_name),
-      labels[clean(item.school_level)] || "",
-      clean(item.grade) ? clean(item.grade) + "학년" : "",
-      clean(item.year) ? clean(item.year) + "년" : "",
-      labels[clean(item.exam_type)] || "기타 자료"
-    ].filter(Boolean);
-
-    card.appendChild(textElement("div", details.join(" · "), "meta"));
-
-    const link = validUrl(item.url);
-    if (link) {
-      const a = document.createElement("a");
-      a.href = link;
-      a.className = "button";
-      a.textContent = type === "file" ? "파일 다운로드" : "자료 열기";
-      a.target = "_blank";
-      a.rel = "noopener noreferrer";
-      card.appendChild(a);
-    } else {
-      card.appendChild(textElement("div", "자료 링크 확인 필요", "meta"));
-    }
-    return card;
-  }
-
-  function renderMore() {
-    const end = Math.min(shown + PAGE_SIZE, visible.length);
-    const fragment = document.createDocumentFragment();
-
-    for (let i = shown; i < end; i++) {
-      fragment.appendChild(createCard(visible[i]));
-    }
-    $("results").appendChild(fragment);
-    shown = end;
-    $("more").hidden = shown >= visible.length;
-  }
-
-  function filterRecords() {
-    const keyword = clean($("keyword").value).toLowerCase();
-    const level = $("level").value;
-    const grade = $("grade").value;
-    const exam = $("exam").value;
-
-    visible = records.filter(item => {
-      const haystack = [
-        item.title, item.filename, item.school_name,
-        item.year, item.source
-      ].map(clean).join(" ").toLowerCase();
-
-      return (!keyword || haystack.includes(keyword)) &&
-        (!level || clean(item.school_level) === level) &&
-        (!grade || clean(item.grade) === grade) &&
-        (!exam || clean(item.exam_type) === exam);
-    });
-
-    $("count").textContent = visible.length + "개 자료";
-    $("results").replaceChildren();
-    shown = 0;
-
-    if (!visible.length) {
-      $("results").appendChild(textElement(
-        "div",
-        loadError || "검색 조건에 맞는 자료가 없습니다.",
-        "message"
-      ));
-      $("more").hidden = true;
-      return;
-    }
-    renderMore();
-  }
-
-  async function load() {
-    $("count").textContent = "자료 불러오는 중...";
-    try {
-      const response = await fetch(
-        "./approved.json?v=" + Date.now(),
-        {cache:"no-store"}
-      );
-      if (!response.ok) throw Error("HTTP " + response.status);
-
-      const data = await response.json();
-      if (!Array.isArray(data)) {
-        throw Error("approved.json은 배열 형식이어야 합니다.");
-      }
-
-      records = data.filter(item =>
-        item && typeof item === "object" &&
-        item.status !== "rejected" &&
-        item.status !== "pending" &&
-        Boolean(validUrl(item.url))
-      );
-
-      records.reverse();
-      loadError = "";
-    } catch (error) {
-      records = [];
-      loadError = "자료를 불러오지 못했습니다. 잠시 후 새로고침해 주세요.";
-      console.error("Exam Bank 자료 로딩 실패:", error);
-    }
-    filterRecords();
-  }
-
-  for (const id of fields) {
-    $(id).addEventListener(
-      id === "keyword" ? "input" : "change",
-      filterRecords
-    );
-  }
-
-  $("reset").addEventListener("click", () => {
-    for (const id of fields) $(id).value = "";
-    filterRecords();
-  });
-
-  $("more").addEventListener("click", renderMore);
-
-  load();
+(()=>{'use strict';
+const $=id=>document.getElementById(id),PAGE_SIZE=30;
+const labels={elementary:'초등학교',middle:'중학교',high:'고등학교',other:'기타',mid:'중간고사',final:'기말고사',mock:'모의고사·수능'};
+let records=[],visible=[],shown=0,loadError='',mode='';
+const clean=value=>String(value??'').trim();
+const normalized=value=>clean(value).toLowerCase().replace(/\s+/g,'');
+function validUrl(value){try{const u=new URL(clean(value),location.href);return ['https:','http:'].includes(u.protocol)?u.href:null}catch{return null}}
+function textNode(tag,value,cls){const el=document.createElement(tag);el.textContent=value;if(cls)el.className=cls;return el}
+function school(item){return clean(item.school_level)}
+function grade(item){const explicit=clean(item.grade);if(explicit)return explicit;const m=clean(item.title).match(/(?:초등학교|초등|초|중학교|중등|중|고등학교|고등|고)\s*([1-6])(?:학년)?/);return m?m[1]:''}
+function exam(item){return clean(item.exam_type)||'other'}
+function createCard(item){const card=document.createElement('article');card.className='result';const type=clean(item.resource_type),filename=clean(item.filename).toLowerCase();const format=type==='file'?(filename.endsWith('.pdf')?'PDF':/\.docx?$/.test(filename)?'Word':'파일'):type==='pdf'?'PDF 링크':'자료 링크';card.append(textNode('span',format,'tag'));card.append(textNode('h3',clean(item.title)||clean(item.filename)||'제목 없음'));const details=[clean(item.school_name),labels[school(item)]||'',grade(item)?grade(item)+'학년':'',clean(item.year)?clean(item.year)+'년':'',labels[exam(item)]||'기타 자료'].filter(Boolean);card.append(textNode('div',details.join(' · '),'meta'));const url=validUrl(item.url);if(url){const a=document.createElement('a');a.href=url;a.className='primary download';a.textContent=type==='file'?'파일 다운로드':'자료 열기';a.target='_blank';a.rel='noopener noreferrer';card.append(a)}else{card.append(textNode('div','자료 링크 확인 필요','meta'))}return card}
+function renderMore(){const end=Math.min(shown+PAGE_SIZE,visible.length),fragment=document.createDocumentFragment();for(let i=shown;i<end;i++)fragment.append(createCard(visible[i]));$('results').append(fragment);shown=end;$('more').hidden=shown>=visible.length}
+function filterRecords(){const keyword=normalized($('keyword').value),level=$('level').value,selectedGrade=$('grade').value,selectedExam=$('exam').value;visible=records.filter(item=>{const haystack=normalized([item.title,item.filename,item.school_name,item.year,item.source,item.source_query].join(' '));const title=normalized(item.title);const categoryOk=mode==='school'?['mid','final'].includes(exam(item)):mode==='variation'?/변형|어법|어휘|빈칸|순서|서술형/.test(title):true;return categoryOk&&(!keyword||haystack.includes(keyword))&&(!level||school(item)===level)&&(!selectedGrade||grade(item)===selectedGrade)&&(!selectedExam||exam(item)===selectedExam)});$('count').textContent=visible.length+'개 자료';$('results').replaceChildren();shown=0;if(!visible.length){$('results').append(textNode('div',loadError||'검색 조건에 맞는 자료가 없습니다.','message'));$('more').hidden=true;return}renderMore()}
+function reset(){for(const id of ['keyword','level','grade','exam'])$(id).value='';mode='';filterRecords()}
+async function load(){try{const response=await fetch('./approved.json?v='+Date.now(),{cache:'no-store'});if(!response.ok)throw Error('HTTP '+response.status);const data=await response.json();if(!Array.isArray(data))throw Error('approved.json은 배열이어야 합니다.');records=data.filter(item=>item&&typeof item==='object'&&item.status!=='rejected'&&item.status!=='pending'&&Boolean(validUrl(item.url))).reverse();loadError=''}catch(error){records=[];loadError='자료를 불러오지 못했습니다. 잠시 후 새로고침해 주세요.';console.error('자료 로딩 실패:',error)}filterRecords()}
+$('hero-form').addEventListener('submit',e=>{e.preventDefault();reset();$('keyword').value=$('hero-keyword').value;filterRecords();$('search').scrollIntoView({behavior:'smooth'})});
+for(const id of ['keyword','level','grade','exam'])$(id).addEventListener(id==='keyword'?'input':'change',()=>{mode='';filterRecords()});
+$('reset').addEventListener('click',()=>{$('hero-keyword').value='';reset()});$('more').addEventListener('click',renderMore);
+document.querySelectorAll('button[data-exam],button[data-category]').forEach(button=>button.addEventListener('click',()=>{reset();if(button.dataset.exam)$('exam').value=button.dataset.exam;else mode=button.dataset.category;filterRecords();$('search').scrollIntoView({behavior:'smooth'})}));
+load();
 })();
 </script>
 </body>
